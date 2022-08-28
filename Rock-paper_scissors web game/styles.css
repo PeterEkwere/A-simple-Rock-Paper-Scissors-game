@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  background-color:#AA96DA;
+}
+
+.container{
+  text-align:center;
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color:lightblue;
+}
+div.score{
+  margin: 20px;
+}
+div.message{
+  margin: 20px;
+}
+h1{
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 3rem;
+
+}
+
+span{
+  border: 1px solid black;
+  padding: 5px;
+  margin: 2px 5px 2px 5px;
+  min-height: 100vh
+}
+
+.btn-1 {
+  background: #b621fe;
+  border: none;
+  border-radius: 20px;
+  z-index: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn-1:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #663dff;
+  border-radius: 5px;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+.btn-1:hover {
+  color: #fff;
+}
+.btn-1:hover:after {
+  left: 0;
+  width: 100%;
+}
+.btn-1:active {
+  top: 2px;
+}
+
+
+
+.btn-2 {
+  background: #b621fe;
+  border: none;
+  border-radius: 20px;
+  z-index: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn-2:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color:#89ABE3FF;
+  border-radius: 5px;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+.btn-2:hover {
+  color: #fff;
+}
+.btn-2:hover:after {
+  left: 0;
+  width: 100%;
+}
+.btn-2:active {
+  top: 2px;
+}
+
+
+
+
+
+.btn-3 {
+  background: #b621fe;
+  border: none;
+  border-radius: 20px;
+  z-index: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.btn-3:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color:#195190FF;
+  border-radius: 5px;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+.btn-3:hover {
+  color: #fff;
+}
+.btn-3:hover:after {
+  left: 0;
+  width: 100%;
+}
+.btn-3:active {
+  top: 2px;
+}
